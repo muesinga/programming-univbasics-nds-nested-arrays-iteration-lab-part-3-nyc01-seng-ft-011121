@@ -9,8 +9,8 @@ row_index = 0
       while element_index < src[row_index].count do
         if src[row_index][element_index].is_a? Integer then
         element_index += 1
-        else all_strings += src[row_index][element_index]
-        all_strings += " "
+        else all_strings += src[row_index][element_index] + " "
+        # all_strings += " "
         element_index += 1
       end
     end

@@ -15,5 +15,5 @@ row_index = 0
     end
     row_index += 1
   end
-    all_strings
+   p all_strings
 end

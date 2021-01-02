@@ -10,6 +10,7 @@ row_index = 0
         if src[row_index][element_index].is_a? Integer then
         element_index += 1
         else all_strings += src[row_index][element_index]
+        element_index += 1
       end
     end
     row_index += 1

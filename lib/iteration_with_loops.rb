@@ -15,5 +15,3 @@ row_index += 1
 end
 all_strings
 end
-end
-end

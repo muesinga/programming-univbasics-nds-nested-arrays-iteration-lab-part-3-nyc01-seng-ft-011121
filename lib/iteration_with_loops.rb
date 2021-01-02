@@ -14,6 +14,6 @@ row_index = 0
       end
     end
     row_index += 1
-    all_strings
   end
+    all_strings
 end
